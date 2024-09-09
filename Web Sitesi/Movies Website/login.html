@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<!-- ŞÜKRÜ YAVUZ 2312729015 // ULVİYE GÜLNİHAL YÜKSEL 2312721035 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GİRİŞ/KAYIT
+        
+    </title>
+    <link rel="shortcut icon" href="login/indir.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+
+
+    
+    <div class="container">
+        <div class="Form login-form">
+        <h2>Giriş Yap</h2>
+        <form action="#">
+            <div class="input-box">
+                <i class='bx bxs-user'></i>
+                <label for="#">Kullanıcı Adı</label>
+                <input type="text" placeholder="Kullanıcı Adınızı Giriniz*">
+               
+               
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-envelope' ></i>
+                <input type="text" placeholder="Şifrenizi Giriniz*">
+                <label for="#">Şifre</label>
+              
+            </div>
+            <div class="forgot-section">
+                <span><input type="checkbox" name="" id="checked">Beni Hatırla</span>
+                <span><a href="#">Şifremi Unuttum</a></span>
+            </div>
+            <button class="btn">Giriş Yap</button>
+        </form>
+        <p>Diğer Seçenekler</p>
+        <div class="social-media">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-google'></i>
+            <i class='bx bxl-twitter'></i>
+        </div>
+        <p class="RegisteBtn RegiBtn"><a href="#">Şimdi Kayıt Ol</a></p>
+    </div>
+    <div class="Form Register-form">
+        <h2>Kayıt Ol</h2>
+        <form action="#">
+            <div class="input-box">
+                <i class='bx bxs-user'></i>
+                <label for="#">Kullanıcı Adı</label>
+                <input type="text" placeholder="Kullanıcı Adınızı Giriniz*">
+               
+               
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-envelope' ></i>
+                <input type="text" placeholder="Şifrenizi Giriniz*">
+                <label for="#">Şifre</label>
+            </div>
+            <div class="input-box">
+                <i class='bx bxs-envelope' ></i>
+                <input type="text" placeholder="Şifrenizi Giriniz*">
+                <label for="#">Şifre Doğrula</label>
+            </div>
+            <div class="forgot-section">
+                <span><input type="checkbox" name="" id="checked">Beni Hatırla</span>
+                <span><a href="#">Şifremi Unuttum</a></span>
+            </div>
+            <button class="btn" class="loginBtn">Kayıt Ol</button>
+        </form>
+        <p>Diğer Seçenekler</p>
+        <div class="social-media">
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-google'></i>
+            <i class='bx bxl-twitter'></i>
+        </div>
+        <p class="LoginBtn"><a href="#">Şimdi Giriş yap</a></p>
+    </div>
+</div>
+<script>
+    const container=document.querySelector(".container") ;
+    const loginForm=document.querySelector('.login-form')
+    const RegisterForm=document.querySelector('.Register-form');
+    const RegiBtn=document.querySelector('.RegiBtn');
+    const LoginBtn=document.querySelector('.LoginBtn');
+    RegiBtn.addEventListener('click',()=>{
+        RegisterForm.classList.add('active');
+        loginForm.classList.add('active')
+    })
+    LoginBtn.addEventListener('click',()=>{
+        RegisterForm.classList.remove('active');
+        loginForm.classList.remove('active')
+    })
+</script>
+</body>
+</html>
