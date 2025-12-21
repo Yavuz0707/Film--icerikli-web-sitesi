@@ -1,4 +1,4 @@
-🎬 ISUBU Film – Film ve Dizi Tanıtım Web Sitesi
+🎬 ISUBU Film – Film ve Dizi Tanıtım Web Sitesi -ŞÜRKÜ YAVUZ
 
 ISUBU Film, popüler film ve dizilerin tanıtımını yapmak amacıyla geliştirilmiş, modern tasarıma sahip, çok sayfalı bir web sitesi projesidir. Proje; kullanıcı dostu arayüzü, kategori bazlı içerik sunumu ve görsel ağırlıklı yapısı ile film-dizi platformlarını temel alan bir web deneyimi sunar.
 
