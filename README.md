@@ -32,7 +32,7 @@ Proje, saf web teknolojileri ve hafif kütüphaneler kullanılarak "Frontend" od
 * **CSS3** - Özel animasyonlar, Flexbox ve Grid sistemleri.
 * **JavaScript (ES6+)** - Dinamik içerik yönetimi ve form kontrolleri.
 * **Swiper.js** - Modern slider/carousel bileşeni.
-* **Boxicons** - Modern ve vektörel ikon kütüphanesi.
+* **Boxicons** - Modern ve vektörel ikon kütüphanesi..
 
 ---
 
