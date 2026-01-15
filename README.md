@@ -10,7 +10,7 @@ Bu proje, modern web teknolojilerini kullanarak aşağıdaki yetkinlikleri sergi
 * **Modern UI/UX:** Film ve dizi içeriklerini görsel odaklı ve düzenli sunmak.
 * **Dinamik Bileşenler:** Swiper.js gibi kütüphanelerle etkileşimli slider yapıları kurmak.
 * **Responsive Tasarım:** Tüm cihazlarla (mobil, tablet, masaüstü) tam uyumlu çalışma.
-* **Mimari Yapı:** Çok sayfalı (multi-page) site mantığını ve klasör düzenini kavramak.
+* **Mimari Yapı:** Çok sayfalı (multi-page) site mantığını ve klasör düzenini kavramak..
 
 ---
 
